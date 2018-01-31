@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToyStore.Common\ToyStore.Common.csproj" />
+    <ProjectReference Include="..\ToyStore.Data\ToyStore.Data.csproj" />
+  </ItemGroup>
+
+</Project>
